@@ -1,0 +1,35 @@
+.skin {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.skin.available {
+  border-left: 5px solid green;
+}
+.skin p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  transition: all .3s linear;
+}
+.skin h3 {
+  color: #292b2c;
+  font-size: 19px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .3s linear;
+}
+
+.skin h3:hover{
+  color:#0275d8;
+}
+
+.skin p:hover{
+  color: rgba(0, 0, 0, 1);
+}
+.skin fa-icon {
+  transform: translateY(10px);
+}

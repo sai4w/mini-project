@@ -1,0 +1,7 @@
+<app-add-skin (onAddSkin)="addSkin($event)"></app-add-skin>
+<app-skin-item
+  *ngFor="let skin of skins"
+  [skin]="skin"
+  (onDeleteSkin)="deleteSkin(skin)"
+  (onToggleAvailable)="toggleAvailable(skin)"
+></app-skin-item>

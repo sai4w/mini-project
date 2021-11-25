@@ -1,0 +1,16 @@
+<div
+  [ngClass]="{ available: skin.available }"
+  class="skin"
+  (dblclick)="onToggle(skin)"
+>
+  <h3>
+    {{ skin.name }} 
+      <fa-icon
+        (click)="onDelete(skin)"
+        [ngStyle]="{ color: 'red' }"
+        [icon]="faTimes"
+      ></fa-icon>
+  </h3>
+  <p>{{ "<<"+ skin.type  +">> | price: "+ skin.price +"$ | date: "+ skin.date +"."}}</p>
+</div>
+

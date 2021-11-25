@@ -1,2 +1,2 @@
 # project
- mini project skin inventory
+ skin inventory project 

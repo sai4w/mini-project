@@ -1,0 +1,50 @@
+<form *ngIf="showAddSkin" class="add-form" (ngSubmit)="onSubmit()">
+  <div class="form-control">
+    <label for="text">Skin</label>
+    <input
+      type="text"
+      name="name"
+      [(ngModel)]="name"
+      id="text"
+      placeholder="Add skin name"
+    />
+  </div>
+  <div class="form-control">
+    <label for="day">Date</label>
+    <input
+      type="date"
+      name="date"
+      [(ngModel)]="date"
+      id="day"
+      placeholder="Add date"
+    />
+  </div>
+  <div class="form-control dro-down">
+    <select name="type" id="type" [(ngModel)]="type">
+      <option value="Facter New">Facter New</option>
+      <option value="Minimal Wear">Minimal Wear</option>
+      <option value="Well-Worn">Well-Worn</option>
+      <option value="Battle-Scarrd">Battle-Scarrd</option>
+    </select>
+  </div>
+  <div class="form-control">
+    <label for="price">Price</label>
+    <input
+      type="number"
+      name="price"
+      [(ngModel)]="price"
+      id="day"
+      placeholder="Add price"
+    />
+  </div>
+  <div class="form-control form-control-check">
+    <label for="reminder">Set Available</label>
+    <input
+      type="checkbox"
+      name="available"
+      [(ngModel)]="available"
+      id="available"
+    />
+  </div>
+  <input type="submit" value="Save Skin" class="btn btn-block" />
+</form>

@@ -1,0 +1,60 @@
+{
+  "skins": [
+    {
+      "name": "ak-47 redline",
+      "date": "2001-02-01",
+      "type": "Facter New",
+      "price": 50,
+      "available": true,
+      "id": 2
+    },
+    {
+      "name": "awp asiimov",
+      "date": "2012-04-02",
+      "type": "Well-Worn",
+      "price": 150,
+      "available": true,
+      "id": 3
+    },
+    {
+      "name": "awp medusa",
+      "date": "2014-04-12",
+      "type": "Minimal Wear",
+      "price": 700,
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "ump-45 fade",
+      "date": "2019-04-05",
+      "type": "Battle-Scarrd",
+      "price": 120,
+      "available": true,
+      "id": 5
+    },
+    {
+      "name": "knife butterfly marble fade ",
+      "date": "2015-07-12",
+      "type": "Facter New",
+      "price": 300,
+      "available": true,
+      "id": 6
+    },
+    {
+      "name": "Driver Gloves | Snow Leopard",
+      "date": "2016-04-05",
+      "type": "Facter New",
+      "price": 1000,
+      "available": true,
+      "id": 7
+    },
+    {
+      "name": "Hand Wraps | CAUTION!",
+      "date": "2010-04-01",
+      "type": "Minimal Wear",
+      "price": 450,
+      "available": true,
+      "id": 8
+    }
+  ]
+}
